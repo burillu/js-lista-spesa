@@ -15,3 +15,8 @@ while (newItem !== 'stop' && count<30){
 console.log(count);
 console.log(itemArray);
 // console.log(item)
+
+const unordList = document.querySelector('.list-group');
+let itemList = document.createElement('li'); 
+itemList.className= 'list-group-item';
+
